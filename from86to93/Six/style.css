@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 40px;
+}
+form {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+form input,select {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+form [type = "submit"] {
+    background-color: lightseagreen;
+    font-weight: bold;
+    color: white;
+}
+#boxes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    width: 100%;
+}
+#boxes div,
+#boxes section {
+    background-color: tomato;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

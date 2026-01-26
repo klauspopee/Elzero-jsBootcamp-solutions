@@ -1,0 +1,37 @@
+[
+    {
+        "writer_name":"ahmed",
+        "writer_id":"1122",
+        "type":"sciense",
+        "title":"Title One",
+        "body":"Article number 1 body"
+    },
+    {
+        "writer_name":"osama",
+        "writer_id":"1222",
+        "type":"sciense",
+        "title":"Title Two",
+        "body":"Article number 2 body"
+    },
+    {
+        "writer_name":"omar",
+        "writer_id":"2222",
+        "type":"Math",
+        "title":"Title Three",
+        "body":"Article number 3 body"
+    },
+    {
+        "writer_name":"khaled",
+        "writer_id":"3333",
+        "type":"Education",
+        "title":"Title Four",
+        "body":"Article number 4 body"
+    },
+    {
+        "writer_name":"sayed",
+        "writer_id":"4444",
+        "type":"Education",
+        "title":"Title Five",
+        "body":"Article number 4 body"
+    }
+]

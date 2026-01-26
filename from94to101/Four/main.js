@@ -1,0 +1,1 @@
+console.log(document.getElementsByTagName('div')[0].lastChild.nodeValue.trim())

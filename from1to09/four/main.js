@@ -1,0 +1,16 @@
+console.group("gourp 1");
+console.log("message one");
+console.log("message two");
+console.group("child group");
+console.log("message one");
+console.log("message two");
+console.group("grand child group");
+console.log("message one");
+console.log("message two");
+console.groupEnd();
+console.groupEnd(); 
+console.groupEnd();
+console.group("gourp 2");
+console.log("message one");
+console.log("message two");
+console.groupEnd();
