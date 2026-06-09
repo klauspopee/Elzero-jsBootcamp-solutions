@@ -12,3 +12,4 @@ String.prototype.elzeroRepeat = function (count) {
 
 console.log("ahmed ".elzeroRepeat(3))
 
+
